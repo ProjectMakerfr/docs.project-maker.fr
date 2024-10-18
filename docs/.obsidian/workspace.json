@@ -1,0 +1,191 @@
+{
+  "main": {
+    "id": "b137ce73b0b39bd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c338b9055b23889",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d2d87ff650deeca",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6cafd8b2ffaa20b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "02236e6a8023f9dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b256ec098aec6de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "642298525fff9cfe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ba52b3e1f31d4c6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d5c9a252eb2f738e",
+    "type": "split",
+    "children": [
+      {
+        "id": "946c003b243f5b53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90c8ffda99c1f98b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c1a4e6c9a48c464",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "76c542d6b56f0e16",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e88c994e36084644",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "5d2d87ff650deeca",
+  "lastOpenFiles": [
+    "guide/logiciel/vscode.mdx",
+    "guide/logiciel/python.mdx",
+    "guide/website/intro.md",
+    "guide/botdiscord/success-starting-bot.png",
+    "guide/botdiscord/image.png",
+    "guide/botdiscord/all-intent-bot.png",
+    "guide/botdiscord/prerequis.mdx",
+    "guide/botdiscord/_intro.mdx_",
+    "guide/botdiscord/intro.mdx_",
+    "guide/botdiscord/prerequis.md",
+    "intro.md",
+    "Sans titre.canvas",
+    "support/Evenements_et_Concours.md",
+    "support/intro.md",
+    "support/talent.md",
+    "support/rex.md",
+    "support/staff.md",
+    "changelog.md",
+    "guide/intro.md",
+    "guide/botdiscord/open-folder-and-choose-folder.png",
+    "guide/botdiscord/paste-commands-to-install-discord-py.png",
+    "guide/botdiscord/create_folder_for_bot.png",
+    "guide/botdiscord/discord.py/Personaliser le bot.md",
+    "guide/botdiscord/discord.py/Modération.md",
+    "guide/botdiscord/discord.py/Help.md",
+    "guide/botdiscord/discord.py/Fun.md",
+    "guide/botdiscord/intro.md",
+    "guide/botdiscord/intro.mdx",
+    "team.md",
+    "Pasted image 20240203151932.png",
+    "Prix pc.md",
+    "Sans titre.md",
+    "Révision.md",
+    "create-project/_category_.json",
+    "create-project/web-projects.md",
+    "create-project/support-discord-bot.md",
+    "create-project",
+    "guides/intro.md",
+    "guides",
+    "cli.md",
+    "docs/cli.md",
+    "guide",
+    "docs/support/_category_.json",
+    "docs/support/staff.md",
+    "docs/Pasted image 20240114174920.png",
+    "docs/Pasted image 20240114172704.png",
+    "docs/Pasted image 20240114172017.png"
+  ]
+}
