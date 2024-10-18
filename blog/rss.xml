@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Project-Maker Blog</title>
+        <link>https://project-maker.fr/docs/blog</link>
+        <description>Project-Maker Blog</description>
+        <lastBuildDate>Thu, 13 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>fr</language>
+        <item>
+            <title><![CDATA[Pré-inscription disponible]]></title>
+            <link>https://project-maker.fr/docs/blog/pre-incription</link>
+            <guid>https://project-maker.fr/docs/blog/pre-incription</guid>
+            <pubDate>Thu, 13 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p><strong>Préinscrivez-vous Maintenant pour Réserver Votre Nom d'Utilisateur !</strong></p>
+<p>Vous êtes sur le point de faire le premier pas vers une expérience enrichissante en vous préinscrivant sur notre site. La préinscription est maintenant ouverte pour vous permettre de réserver votre nom d'utilisateur et de recevoir toutes les informations importantes par e-mail.</p>
+<p><strong>Pourquoi Préinscrire ?</strong></p>
+<p>La préinscription vous offre plusieurs avantages :</p>
+<ol>
+<li>
+<p><strong>Réservez Votre Nom d'Utilisateur :</strong> En vous préinscrivant, vous sécurisez votre nom d'utilisateur pour éviter qu'il ne soit pris lorsque les inscriptions officielles commencent.</p>
+</li>
+<li>
+<p><strong>Accès Privilégié aux Informations :</strong> Vous recevrez en avant-première toutes les actualités, annonces et détails sur notre plateforme.</p>
+</li>
+<li>
+<p><strong>Facilité de Processus :</strong> Le processus de préinscription est simple et ne prend que quelques minutes.</p>
+</li>
+</ol>
+<p><strong>Comment Préinscrire ?</strong></p>
+<p>Suivez ces étapes simples pour vous préinscrire :</p>
+<ol>
+<li>
+<p><strong>Accédez à Notre Site Web :</strong> Visitez [insérer l'URL du site] où vous trouverez le formulaire de préinscription.</p>
+</li>
+<li>
+<p><strong>Remplissez le Formulaire :</strong> Indiquez vos informations personnelles requises, y compris votre nom, adresse e-mail et tout autre détail demandé.</p>
+</li>
+<li>
+<p><strong>Choisissez Votre Nom d'Utilisateur :</strong> Sélectionnez un nom d'utilisateur unique que vous souhaitez réserver.</p>
+</li>
+<li>
+<p><strong>Soumettez Votre Préinscription :</strong> Une fois le formulaire rempli, cliquez sur le bouton de soumission.</p>
+</li>
+</ol>
+<p><strong>Confirmation par E-mail</strong></p>
+<p>Après avoir soumis votre préinscription, vous recevrez une confirmation par e-mail contenant toutes les informations importantes, y compris les prochaines étapes à suivre et les détails sur la disponibilité de votre nom d'utilisateur réservé.</p>
+<p><strong>À Propos de Notre Plateforme</strong></p>
+<p>Notre plateforme s'engage à offrir une expérience utilisateur exceptionnelle et une communauté dynamique. Nous sommes impatients de vous accueillir et de vous fournir toutes les ressources nécessaires pour une expérience enrichissante.</p>
+<p><strong>Ne Manquez Pas Votre Chance !</strong></p>
+<p>Les places sont limitées pour les noms d'utilisateur les plus populaires. Préinscrivez-vous dès maintenant pour sécuriser votre nom d'utilisateur et commencez à recevoir toutes les informations importantes avant tout le monde !</p>
+<p>Cordialement,</p>
+<p><a href="https://project-maker.fr/docs/docs/team">L'équipe ProjectMaker</a></p>]]></content:encoded>
+            <category>ProjectMaker</category>
+            <category>news</category>
+            <category>dashboard</category>
+            <category>communauté</category>
+        </item>
+        <item>
+            <title><![CDATA[ProjectMaker est de retour !]]></title>
+            <link>https://project-maker.fr/docs/blog/projectmaker-is-back</link>
+            <guid>https://project-maker.fr/docs/blog/projectmaker-is-back</guid>
+            <pubDate>Thu, 09 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus.]]></description>
+            <content:encoded><![CDATA[<p>Chers amis de ProjectMaker,</p>
+<p>Nous sommes ravis de vous annoncer que ProjectMaker est de retour, plus fort que jamais ! Après une pause bien méritée, nous sommes excités de réouvrir nos portes et de vous accueillir à nouveau dans notre communauté.</p>
+<p>Votre fidélité et votre soutien continu sont les moteurs qui nous inspirent chaque jour. Nous avons travaillé sans relâche pour améliorer nos services, développer de nouvelles fonctionnalités et créer une expérience encore plus exceptionnelle pour vous.</p>
+<p>Les équipes de ProjectMaker ont redoublé d'efforts pour vous offrir des solutions innovantes et des projets passionnants. Nous croyons en la puissance de la collaboration et de la créativité, et nous sommes impatients de partager ces moments forts avec vous.</p>
+<p>Restez à l'écoute pour découvrir les nouveautés passionnantes que nous avons préparées. ProjectMaker revient avec un engagement renouvelé envers l'excellence, la qualité et l'innovation.</p>
+<p>Merci de faire partie de l'aventure ProjectMaker. Ensemble, construisons quelque chose de grand !</p>
+<p>Bienvenue de nouveau chez ProjectMaker !</p>
+<p>Cordialement,</p>
+<p><a href="https://project-maker.fr/docs/docs/team">L'équipe ProjectMaker</a></p>]]></content:encoded>
+            <category>ProjectMaker</category>
+        </item>
+    </channel>
+</rss>
