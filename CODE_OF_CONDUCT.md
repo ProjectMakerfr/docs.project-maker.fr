@@ -1,0 +1,1 @@
+@ProjectMakerfr a adopté un code de conduite que les participants au projet doivent respecter. Veuillez [lire le texte intégral](https://code.fb.com/codeofconduct/) afin de comprendre quelles actions seront ou ne seront pas tolérées.
