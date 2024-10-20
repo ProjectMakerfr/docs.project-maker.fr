@@ -173,13 +173,13 @@ const config = {
           hideable: true,
         },
       },
-      announcementBar: {
-        id: 'support_us',
-        content:
-          '<div id="support_us">🎉 Bienvenue à notre documentation! Consultez les dernières <a target="_blank" rel="noopener noreferrer" href="https://example.com">mises à jour</a>.</div>',
-        backgroundColor: '#fff',
-        isCloseable: true
-      },
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     '<div id="support_us">🎉 Bienvenue à notre documentation! Consultez les dernières <a target="_blank" rel="noopener noreferrer" href="https://example.com">mises à jour</a>.</div>',
+      //   backgroundColor: '#fff',
+      //   isCloseable: true
+      // },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
