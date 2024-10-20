@@ -1,23 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+leolb:
+    name: leo.lb
+    title: Directeur ProjectMaker - Rédacteur en chef
+    image_url: https://github.com/leo-lb29.png
+    page: true
+    socials:
+      github: leo-lb29
+      web: https://leolb.project-maker.fr
+cenoa:
+    name: cenoa
+    title: Directeur ProjectMaker
+    url: https://github.com/cenoa
+    image_url: https://github.com/cenoa.png
+merfox:
+    name: Merfox-Fire
+    title: Directeur ProjectMaker
+    # url: https://sebastienlorber.com
+    image_url: https://cdn.discordapp.com/avatars/530049495975591957/56795b3382d643af05aca49f50ab5595.png?size=1024
+lokias: 
+    name: LoKias
+    title: Directeur ProjectMaker
+    url: https://github.com/LoKiasDev
+    image_url: https://github.com/LoKiasDev.png

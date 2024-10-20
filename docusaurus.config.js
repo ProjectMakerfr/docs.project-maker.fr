@@ -4,34 +4,32 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Project-Maker',
+  tagline: 'Propulsons ensemble vos projets !',
+  favicon: 'img/logoV2.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.project-maker.fr',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ProjectMakerfr', // Usually your GitHub org/user name.
+  projectName: 'docs.project-maker.fr', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
 
   presets: [
@@ -40,11 +38,43 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          admonitions: {
+            keywords: [
+              'note',
+              'tip',
+              'info',
+              'caution',
+              'danger',
+              'nouvellesfonctionnalites',
+              'ameliorations',
+              'correctionsbugs',
+              'misesajoursecurite',
+              'changementsmajeurs',
+              'modificationsui',
+              'amelioreperformances',
+              'compatibilite',
+              'documentation',
+              'retraits',
+              'ajouts',
+              'changementsmineurs',
+              'versionnote',
+              'discord',
+            ],
+          },
+          // lastVersion: '1.1.0',  // Indique que la version 1.1.0 est la version la plus récente.
+          // versions: {
+          //   current: {
+          //     label: 'beta 🚧',
+          //     path: 'next',
+          //     banner: 'unreleased',  // Indique que la version 'Next' est encore en cours de développement.
+          //   },
+          //   "1.1.0": {
+          //     label: 'v1.1.0',
+          //     banner: 'none',
+          //     // banner: 'unmaintained',
+          //   },
+          // },
         },
         blog: {
           showReadingTime: true,
@@ -55,43 +85,161 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ProjectMakerfr/docs.project-maker.fr/',
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: 'ignore',
+          onInlineAuthors: 'ignore',
+          onUntruncatedBlogPosts: 'ignore'
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/logoV2.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/logoV2.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/logoV2.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
+  ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      algolia: {
+        appId: 'UTJHF69BBL',
+        apiKey: '930bf92704c8cb55e4f9e2e49ad812fb',
+        indexName: 'project-maker',
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '<div id="support_us">🎉 Bienvenue à notre documentation! Consultez les dernières <a target="_blank" rel="noopener noreferrer" href="https://example.com">mises à jour</a>.</div>',
+        backgroundColor: '#fff',
+        isCloseable: true
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Project-Maker.fr',
+        hideOnScroll: true,
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'My_Site_Logo',
+          src: 'img/logoV2.png',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'doc',
             position: 'left',
-            label: 'Tutorial',
+            docId: 'intro', // Assurez-vous que le chemin est correct
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'doc',
+            position: 'left',
+            docId: 'guide/intro', // Assurez-vous que le chemin est correct
+            label: 'Guides',
+          },
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'api/intro', // Assurez-vous que le chemin est correct
+            label: 'API',
+          },
+          {
+            type: 'doc',
+            position: 'left',
+            docId: 'support/intro', // Assurez-vous que le chemin est correct
+            label: 'Communauté',
+          },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'right',
+          // },
+          {
+            href: 'https://uptime.project-maker.fr/',
+            label: 'ProjectMaker Uptime Checker',
             position: 'right',
           },
+          {
+            href: 'https://project-maker.fr/discord',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
+            type: 'docsVersion',
+            to: '/docs/partner',
+            label: 'Partenaires',
+            position: 'left',
+          },
+          // {
+          //   href: '/docs/partner',
+          //   label: 'Partenaires',
+          //   position: 'left',
+          // },
+          { to: 'blog', label: 'Blog', position: 'left' },
         ],
       },
       footer: {
@@ -101,43 +249,31 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Communauté',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://project-maker.fr/discord',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Plus',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ProjectMakerGithub/docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Project-Maker. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

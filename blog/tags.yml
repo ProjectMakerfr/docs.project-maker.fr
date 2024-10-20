@@ -17,3 +17,33 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+v1:
+  label: V1
+  permalink: /v1
+  description: V1 tag description
+
+ProjectMaker:
+  label: ProjectMaker
+  permalink: /ProjectMaker
+  description: ProjectMaker tag description
+
+news:
+  label: News
+  permalink: /news
+  description: News tag description
+
+dashboard:
+  label: Dashboard
+  permalink: /dashboard
+  description: Dashboard tag description
+
+communauté:
+  label: Communauté
+  permalink: /communauté
+  description: Communauté tag description
+
+versions:
+  label: Versions
+  permalink: /versions
+  description: Versions tag description

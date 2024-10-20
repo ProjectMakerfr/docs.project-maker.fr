@@ -1,3 +1,4 @@
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -5,8 +6,8 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
+/* :root {
+  --ifm-color-primary: #ED371F;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -15,16 +16,787 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css");
+
+[alt=partner_big_img] {
+  width: 624px;
+}
+
+[alt=emoji] {
+  width: 18px;
+  margin-bottom: -3px 
+}
+
+/* Announcement Bar */
+div[class^='announcementBarContent'] {
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+}
+
+div[class^='announcementBarContent'] a {
+  color: var(--ifm-link-color);
+  text-decoration: inherit;
+}
+
+div[class^='announcementBarContent'] a:hover {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
+}
+
+
+:root {
+  --bs-blue: #377dff;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #ed4c78;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #f5ca99;
+  --bs-green: #198754;
+  --bs-teal: #00c9a7;
+  --bs-cyan: #09a5be;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #8c98a4;
+  --bs-gray-dark: #71869d;
+  --bs-gray-100: #f9fafc;
+  --bs-gray-200: #f8fafd;
+  --bs-gray-300: #e7eaf3;
+  --bs-gray-400: #bdc5d1;
+  --bs-gray-500: #97a4af;
+  --bs-gray-600: #8c98a4;
+  --bs-gray-700: #677788;
+  --bs-gray-800: #71869d;
+  --bs-gray-900: #1e2022;
+  --bs-primary: #377dff;
+  --bs-secondary: #71869d;
+  --bs-success: #00c9a7;
+  --bs-info: #09a5be;
+  --bs-warning: #f5ca99;
+  --bs-danger: #ed4c78;
+  --bs-light: #f9fafc;
+  --bs-dark: #132144;
+  --bs-body-color: #677788;
+  --bs-body-bg: #fff;
+  --bs-link-color: #377dff;
+  --bs-link-hover-color: #1366ff;
+  --bs-code-color: #d63384;
+  --bs-highlight-bg: #fdf4eb;
+}
+
+[alt=infoSiteWebBadges] {
+  width: 250px;
+}
+
+/* Style pour la barre de défilement */
+body::-webkit-scrollbar {
+  width: 10px;
+  /* Largeur de la barre de défilement */
+  border-radius: 10px;
+  /* Bordure arrondie */
+}
+
+/* Style pour la poignée de la barre de défilement */
+body::-webkit-scrollbar-thumb {
+  background-color: #3d4145;
+  /* Couleur de la poignée */
+  border-radius: 10px;
+  /* Bordure arrondie */
+}
+
+
+/* Style pour la piste de la barre de défilement */
+body::-webkit-scrollbar-track {
+
+  background-color: #202325;
+  /* border-radius: 10px; Bordure arrondie */
+}
+
+html[data-theme='dark'] .hero--primary {
+  /* background: linear-gradient(45deg, #7000FF, #FF5D3D); */
+  background:  url("/img/Mockup%20content%20(3232%20px%20x%201432%20px).png") center;
+  background-size: cover;
+  color: #fff;
+}
+
+.mb-4 {
+  margin-bottom: 14px;
+}
+
+.fa-solid.fa-handshake {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #3a86ff;
+}
+
+.or {
+  background-image: linear-gradient(to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%);
+  color: transparent !important;
+  -webkit-background-clip: text;
+}
+
+.background-grey-bug {
+  height: 48px;
+  width: 48px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.fa-solid.fa-trophy {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #06d6a0;
+  background-image: linear-gradient(to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fa-solid.fa-jedi {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #06d6a0;
+  background-image: linear-gradient(to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fa-brands.fa-first-order {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #06d6a0;
+  background-image: linear-gradient(to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.fa-solid.fa-bug.three {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  border-radius: 12px;
+  height: 48px;
+  width: 48px;
+  color: #00c9a7;
+  animation: rotate 1.5s linear infinite;
+  box-shadow: 0px 0px 10px #00c9a7;
+}
+
+.fa-solid.fa-bug.one {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #06d6a0;
+}
+
+.fa-solid.fa-bug.two {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #06d6a0;
+  background-image: linear-gradient(to right,
+      #462523 0,
+      #cb9b51 22%,
+      #f6e27a 45%,
+      #f6f2c0 50%,
+      #f6e27a 55%,
+      #cb9b51 78%,
+      #462523 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+[alt=My_Site_Logo] {
+  border-radius: 0;
+}
+
+[alt=service_icon] {
+  width: 45px;
+  height: auto;
+}
+
+
+
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #ff5a46;
+  --ifm-color-primary-dark: #ff3d25;
+  --ifm-color-primary-darker: #ff2f15;
+  --ifm-color-primary-darkest: #ff1d02;
+  --ifm-color-primary-light: #ff7766;
+  --ifm-color-primary-lighter: #ff8577;
+  --ifm-color-primary-lightest: #ffb1a7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.link-form a {
+  padding: 18px;
+  border-radius: 12px;
+  background-color: #ff5a46;
+  text-decoration: none;
+  color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+
+.admonition {
+  margin-bottom: 1em;
+}
+
+.admonitionHeading {
+  font: var(--ifm-heading-font-weight) var(--ifm-h5-font-size) / var(--ifm-heading-line-height) var(--ifm-heading-font-family);
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+
+.admonitionHeading code {
+  text-transform: none;
+}
+
+.admonitionIcon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+.admonitionIcon svg {
+  display: inline-block;
+  height: 1.6em;
+  width: 1.6em;
+  fill: var(--ifm-alert-foreground-color);
+}
+
+.admonitionContent> :last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* admonition-styles.css */
+
+/* Styles pour Nouvelles fonctionnalités */
+.theme-admonition-nouvellesfonctionnalites {
+  --ifm-alert-background-color: rgba(0, 128, 0, 0.5);
+  /* Vert */
+  --ifm-alert-background-color-highlight: rgba(0, 128, 0, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #806d00;
+}
+
+html[data-theme='dark'] .theme-admonition-nouvellesfonctionnalites {
+  --ifm-alert-background-color: #806d00;
+  --ifm-alert-background-color-highlight: #806d00;
+  --ifm-alert-border-color: #806d00;
+  --ifm-alert-foreground-color: #fff;
+}
+
+
+
+/* Styles pour Améliorations */
+/* admonition-styles.css */
+
+/* Styles pour Nouvelles fonctionnalités */
+/* admonition-styles.css */
+
+/* Styles pour Nouvelles fonctionnalités */
+.theme-admonition-nouvellesfonctionnalites {
+  --ifm-alert-background-color: rgba(52, 152, 219, 0.5);
+  /* Bleu clair */
+  --ifm-alert-background-color-highlight: rgba(52, 152, 219, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #3498db;
+}
+
+html[data-theme='dark'] .theme-admonition-nouvellesfonctionnalites {
+  --ifm-alert-background-color: #3498db80;
+  --ifm-alert-background-color-highlight: #3498db26;
+  --ifm-alert-border-color: #3498db;
+  --ifm-alert-foreground-color: #fff;
+}
+
+
+/* Styles pour Améliorations */
+.theme-admonition-ameliorations {
+  --ifm-alert-background-color: rgba(255, 165, 0, 0.5);
+  --ifm-alert-background-color-highlight: rgba(255, 165, 0, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #ffa500;
+}
+
+html[data-theme='dark'] .theme-admonition-ameliorations {
+  --ifm-alert-background-color: #ffa50080;
+  --ifm-alert-background-color-highlight: #ffa50026;
+  --ifm-alert-border-color: #ffa500;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Corrections de bugs */
+.theme-admonition-correctionsbugs {
+  --ifm-alert-background-color: rgba(255, 0, 0, 0.5);
+  --ifm-alert-background-color-highlight: rgba(255, 0, 0, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #ff0000;
+}
+
+html[data-theme='dark'] .theme-admonition-correctionsbugs {
+  --ifm-alert-background-color: #ff000080;
+  --ifm-alert-background-color-highlight: #ff000026;
+  --ifm-alert-border-color: #ff0000;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Mises à jour de sécurité */
+.theme-admonition-misesajoursecurite {
+  --ifm-alert-background-color: rgba(255, 20, 147, 0.5);
+  --ifm-alert-background-color-highlight: rgba(255, 20, 147, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #ff1493;
+}
+
+html[data-theme='dark'] .theme-admonition-misesajoursecurite {
+  --ifm-alert-background-color: #ff149380;
+  --ifm-alert-background-color-highlight: #ff149326;
+  --ifm-alert-border-color: #ff1493;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Changements majeurs */
+.theme-admonition-changementsmajeurs {
+  --ifm-alert-background-color: rgba(255, 69, 0, 0.5);
+  --ifm-alert-background-color-highlight: rgba(255, 69, 0, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #ff4500;
+}
+
+html[data-theme='dark'] .theme-admonition-changementsmajeurs {
+  --ifm-alert-background-color: #ff450080;
+  --ifm-alert-background-color-highlight: #ff450026;
+  --ifm-alert-border-color: #ff4500;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Modifications de l'interface utilisateur (UI) */
+.theme-admonition-modificationsui {
+  --ifm-alert-background-color: rgba(65, 105, 225, 0.5);
+  --ifm-alert-background-color-highlight: rgba(65, 105, 225, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #4169e1;
+}
+
+html[data-theme='dark'] .theme-admonition-modificationsui {
+  --ifm-alert-background-color: #4169e180;
+  --ifm-alert-background-color-highlight: #4169e126;
+  --ifm-alert-border-color: #4169e1;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Améliorations de performance */
+.theme-admonition-amelioreperformances {
+  --ifm-alert-background-color: rgba(138, 43, 226, 0.5);
+  --ifm-alert-background-color-highlight: rgba(138, 43, 226, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #8a2be2;
+}
+
+html[data-theme='dark'] .theme-admonition-amelioreperformances {
+  --ifm-alert-background-color: #8a2be280;
+  --ifm-alert-background-color-highlight: #8a2be226;
+  --ifm-alert-border-color: #8a2be2;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Compatibilité */
+.theme-admonition-compatibilite {
+  --ifm-alert-background-color: rgba(0, 206, 209, 0.5);
+  --ifm-alert-background-color-highlight: rgba(0, 206, 209, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #00ced1;
+}
+
+html[data-theme='dark'] .theme-admonition-compatibilite {
+  --ifm-alert-background-color: #00ced180;
+  --ifm-alert-background-color-highlight: #00ced126;
+  --ifm-alert-border-color: #00ced1;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Documentation */
+.theme-admonition-documentation {
+  --ifm-alert-background-color: rgba(100, 149, 237, 0.5);
+  --ifm-alert-background-color-highlight: rgba(100, 149, 237, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #6495ed;
+}
+
+html[data-theme='dark'] .theme-admonition-documentation {
+  --ifm-alert-background-color: #6495ed80;
+  --ifm-alert-background-color-highlight: #6495ed26;
+  --ifm-alert-border-color: #6495ed;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Retraits */
+.theme-admonition-retraits {
+  --ifm-alert-background-color: rgba(220, 20, 60, 0.5);
+  --ifm-alert-background-color-highlight: rgba(220, 20, 60, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #dc143c;
+}
+
+html[data-theme='dark'] .theme-admonition-retraits {
+  --ifm-alert-background-color: #dc143c80;
+  --ifm-alert-background-color-highlight: #dc143c26;
+  --ifm-alert-border-color: #dc143c;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Ajouts */
+.theme-admonition-ajouts {
+  --ifm-alert-background-color: rgba(50, 205, 50, 0.5);
+  --ifm-alert-background-color-highlight: rgba(50, 205, 50, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #32cd32;
+}
+
+html[data-theme='dark'] .theme-admonition-ajouts {
+  --ifm-alert-background-color: #32cd3280;
+  --ifm-alert-background-color-highlight: #32cd3226;
+  --ifm-alert-border-color: #32cd32;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Changements mineurs */
+.theme-admonition-changementsmineurs {
+  --ifm-alert-background-color: rgba(240, 230, 140, 0.5);
+  --ifm-alert-background-color-highlight: rgba(240, 230, 140, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #f0e68c;
+}
+
+html[data-theme='dark'] .theme-admonition-changementsmineurs {
+  --ifm-alert-background-color: #f0e68c80;
+  --ifm-alert-background-color-highlight: #f0e68c26;
+  --ifm-alert-border-color: #f0e68c;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Notes de version */
+.theme-admonition-versionnote {
+  --ifm-alert-background-color: rgba(255, 255, 0, 0.5);
+  --ifm-alert-background-color-highlight: rgba(255, 255, 0, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #ffff00;
+}
+
+html[data-theme='dark'] .theme-admonition-versionnote {
+  --ifm-alert-background-color: #ffff0080;
+  --ifm-alert-background-color-highlight: #ffff0026;
+  --ifm-alert-border-color: #ffff00;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Styles pour Discord */
+.theme-admonition-discord {
+  --ifm-alert-background-color: rgba(212, 53, 28, 0.5);
+  --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #d4351c;
+}
+
+html[data-theme='dark'] .theme-admonition-discord {
+  --ifm-alert-background-color: #7289da80;
+  --ifm-alert-background-color-highlight: #54c7ec26;
+  --ifm-alert-border-color: #5865f2;
+  --ifm-alert-foreground-color: #fff;
+}
+
+/* Continuer avec les styles pour d'autres types d'admonition */
+
+
+.theme-admonition-discord {
+  --ifm-alert-background-color: rgba(212, 53, 28, 0.5);
+  --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
+  --ifm-alert-foreground-color: rgb(66, 69, 73);
+  --ifm-alert-border-color: #d4351c;
+}
+
+html[data-theme='dark'] .theme-admonition-discord {
+  --ifm-alert-background-color: #7289da80;
+  --ifm-alert-background-color-highlight: #54c7ec26;
+  --ifm-alert-border-color: #5865f2;
+  --ifm-alert-foreground-color: #fff;
+}
+
+
+/* Continuer avec les styles pour les autres types d'admonition */
+
+
+
+.link-form a:hover {
+  background-color: #ff3d25;
+}
+
+/* Dans votre fichier CSS personnalisé */
+.custom-admonition {
+  /* Vos styles personnalisés ici */
+  color: white;
+  /* Couleur du texte */
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+img[alt=petitimg] {
+  width: 400px;
+  border-radius: 18px;
+}
+
+.fa-solid.fa-flag-checkered {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #1282a2;
+}
+
+.fa-brands.fa-square-js {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #f0db4f;
+}
+
+.fa-brands.fa-php {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #8993be;
+}
+
+.fa-solid.fa-meteor {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #2e86ab;
+}
+
+.fa-solid.fa-bomb {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #A23B72;
+}
+
+.fa-solid.fa-wand-magic-sparkles {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 12px 8px;
+  height: 48px;
+  width: 48px;
+  color: #F18F01;
+}
+
+.bi {
+  font-size: x-large;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 8px 12px 8px 12px;
+}
+
+.bi-shield-check {
+  color: var(--bs-success);
+
+}
+
+.bi-shield-exclamation {
+  color: #f5ca99;
+
+}
+
+.bi-shield-shaded {
+  color: var(--bs-blue);
+}
+
+.bi-shield-slash {
+  color: #ed4c78;
+
+}
+
+.bi-check2-circle {
+  color: #09a5be;
+
+}
+
+.bi-wrench-adjustable-circle-fill {
+  color: #fef9ef;
+}
+
+
+
+.bi-android {
+  color: #3ddc84;
+}
+
+.bi-person-fill-lock {
+  color: var(--bs-success);
+}
+
+.bi-piggy-bank-fill {
+  color: #ffafcc;
+}
+
+.bi-patch-check {
+  color: #168aad;
+}
+
+.bi-code-slash {
+  color: #80ffdb;
+  font-weight: 900;
+}
+
+img[alt=profile] {
+  width: 50px !important;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 50px;
+  max-width: 250px !important
+}
+
+img[alt=star] {
+  width: 15px !important;
+  ;
+  overflow: hidden;
+  max-width: 250px !important
+}
+
+img[alt=imgDeezer] {
+  max-width: 250px !important
+}
+
+img[src*="000webhost"],
+img[src*="000webhost"][style],
+body>div:nth-last-of-type(1)[style] {
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0px !important;
+  height: 0px !important;
+  visibility: hidden !important;
+  display: none !important;
+}
+
+
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
