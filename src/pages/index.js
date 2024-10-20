@@ -98,7 +98,7 @@ export default function Home() {
     >
       <HomepageHeader />
       <main>
-        <AboutSection />
+        {/* <AboutSection /> */}
         {/* <FeaturesSection /> */}
         {/* <h2 className={styles.sectionTitle}>Crée votre projet sans soucis</h2> */}
         <HomepageFeatures />
