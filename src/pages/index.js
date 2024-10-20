@@ -29,8 +29,7 @@ function AboutSection() {
       <div className="container">
         <h2 className={styles.sectionTitle}>À propos de Project-Maker</h2>
         <p className={styles.sectionText}>
-          Project-Maker est une plateforme complète qui vous aide à lancer vos projets en toute simplicité. 
-          Que vous soyez un entrepreneur, une développeuse, un graphiste, débutant, expert ou un chef de projet, nous mettons à votre disposition les outils nécessaires pour bien débuter et réussir les premiers rendu rapidements.
+        Project-Maker est une plateforme complète conçue pour simplifier le lancement de vos projets. Que vous soyez entrepreneur, développeuse, graphiste, débutant, expert ou chef de projet, nous vous offrons tous les outils nécessaires pour démarrer facilement et obtenir rapidement des résultats de qualité.
         </p>
         {/* <ul className={styles.featureList}>
           <li><strong>Outils de gestion de projet :</strong> Planifiez vos tâches, définissez des jalons, et suivez l'avancement de vos projets.</li>
