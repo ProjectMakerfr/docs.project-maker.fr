@@ -1,61 +1,41 @@
-# Nom du Site Web
+# Website
 
-Bienvenue sur **Nom du Site Web**. Ce document vous fournira des informations sur le site, son développement, comment signaler des erreurs, et comment nous contacter pour toute question ou suggestion.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Table des matières
-1. [À propos du projet](#à-propos-du-projet)
-2. [Fonctionnalités principales](#fonctionnalités-principales)
-4. [Signalement d'une erreur](#signalement-dune-erreur)
-5. [Contributeurs](#contributeurs)
-6. [Contact](#contact)
-7. [Licence](#licence)
+### Installation
 
----
+```
+$ yarn
+```
 
-## À propos du projet
+### Local Development
 
-**Project-Maker.fr** est le site web principal du projet. Le site a été développé en utilisant PHP, NodeJS...
+```
+$ yarn start
+```
 
-## Fonctionnalités principales
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-- Le site est le nœud principal pour accéder au différente fonction du site web.
-- Ce site contient différente pas que vous pouvez retrouver sur [le Site Maps](https://project-maker.fr/sitemap.xml)
+### Build
 
-## Signalement d'une erreur
+```
+$ yarn build
+```
 
-Si vous rencontrez un bug ou une erreur sur le site, merci de suivre les étapes suivantes pour nous le signaler :
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-1. Allez sur la page des issues du projet sur GitHub : [https://github.com/ProjectMakerfr/project-maker.fr/issues](https://github.com/ProjectMakerfr/project-maker.fr/issues)
-2. Cliquez sur "New Issue" (Nouvelle issue).
-3. Décrivez l'erreur de manière détaillée :
-   - Ce qui s'est passé
-   - Les étapes pour reproduire l'erreur
-   - Tout message d'erreur reçu
-   - Captures d'écran ou vidéos (si disponibles)
-4. Spécifiez les informations suivantes (si possible) :
-   - Votre système d'exploitation
-   - Le navigateur utilisé
-   - La version du site (affiché dans le footer si disponible)
+### Deployment
 
-Nous ferons de notre mieux pour résoudre l'erreur dans les plus brefs délais.
+Using SSH:
 
-## Contributeurs
+```
+$ USE_SSH=true yarn deploy
+```
 
-Le projet a été créé et est actuellement maintenu par :
+Not using SSH:
 
-- **@leo-lb29** - Développeur principal
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
 
-Nous accueillons les contributions ! Si vous souhaitez contribuer au projet, veuillez consulter notre [Guide de Contribution](CONTRIBUTING.md).
-
-## Contact
-
-Pour toute question, suggestion ou demande particulière, vous pouvez nous contacter via les moyens suivants :
-
-- **Email :** [contact@project-maker.fr](mailto:contact@project-maker.fr)
-- **GitHub :** [ProjectMakerfr](https://github.com/ProjectMakerfr)
-- **Instagram :** [@projectmakerfr](https://instagram.com/projectmakerfr)
-- **Bento.me**: [projectmaker](https://bento.me/projectmaker)
-- **YouTube**: [@projectmakerfr](https://youtube/@projectmakerfr)
-## Licence
-
-Ce projet est sous Copyright de Project-Maker.fr et Licence PRELINE LABS PRO. Vous pouvez consulter les termes complets dans le fichier [LICENSE](LICENSE.md).
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

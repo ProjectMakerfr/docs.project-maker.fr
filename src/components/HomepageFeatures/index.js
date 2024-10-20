@@ -1,37 +1,39 @@
-import React from 'react';
 import clsx from 'clsx';
+import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: "Travail d'équipe !", 
-    Svg: require('@site/static/img/undraw_teamwork_hpdk.svg').default,
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        L'importance du travail d'équipe est cruciale pour atteindre des objectifs communs de manière efficace et efficiente. En collaborant, les membres de l'équipe peuvent fusionner leurs forces et compétences pour résoudre des problèmes, innover, et obtenir des résultats exceptionnels.
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: 'Détendez-vous',
-    Svg: require('@site/static/img/undraw_young_and_happy_hfpe.svg').default,
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        ProjectMaker offre une documentation bien organisée, facilitant l'accès aux informations clés. Cela permet aux utilisateurs de se concentrer pleinement sur les tâches essentielles de leurs projets.
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Un projet au top',
-    Svg: require('@site/static/img/undraw_online_collaboration_re_bkpm.svg').default,
+    title: 'Powered by React',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Solliciter des avis sur votre projet constitue une méthode efficace pour améliorer sa qualité et le faire évoluer vers une version optimale. Les retours d'expérience et les suggestions des autres permettent d'identifier les forces et les faiblesses du projet, favorisant ainsi des améliorations pertinentes.
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },
 ];
-
 
 function Feature({Svg, title, description}) {
   return (
@@ -40,7 +42,7 @@ function Feature({Svg, title, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>
