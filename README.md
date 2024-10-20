@@ -45,7 +45,7 @@ Le projet a été créé et est actuellement maintenu par :
 
 - **@leo-lb29** - Développeur principal
 
-Nous accueillons les contributions ! Si vous souhaitez contribuer au projet, veuillez consulter notre [Guide de Contribution](CONTRIBUTING.md).
+Nous accueillons les contributions ! Si vous souhaitez contribuer au projet, veuillez consulter notre [Guide de Contribution](CONTRIBUTING).
 
 ## Contact
 
@@ -58,4 +58,4 @@ Pour toute question, suggestion ou demande particulière, vous pouvez nous conta
 - **YouTube**: [@projectmakerfr](https://youtube/@projectmakerfr)
 ## Licence
 
-Ce projet est sous Copyright de Project-Maker.fr. Vous pouvez consulter les termes complets dans le fichier [LICENSE](LICENSE.md).
+Ce projet est sous Copyright de Project-Maker.fr. Vous pouvez consulter les termes complets dans le fichier [LICENSE](LICENSE).
