@@ -62,19 +62,19 @@ const config = {
               'discord',
             ],
           },
-          lastVersion: '1.0.0',  // Indique que la version 1.1.0 est la version la plus récente.
-          versions: {
-            current: {
-              label: 'beta 🚧',
-              path: 'next',
-              banner: 'unreleased',  // Indique que la version 'Next' est encore en cours de développement.
-            },
-            "1.0.0": {
-              label: 'v1.0.0',
-              banner: 'none',
-              // banner: 'unmaintained',
-            },
-          },
+          // lastVersion: '1.0.0',  // Indique que la version 1.1.0 est la version la plus récente.
+          // versions: {
+          //   current: {
+          //     label: 'beta 🚧',
+          //     path: 'next',
+          //     banner: 'unreleased',  // Indique que la version 'Next' est encore en cours de développement.
+          //   },
+          //   "1.0.0": {
+          //     label: 'v1.0.0',
+          //     banner: 'none',
+          //     // banner: 'unmaintained',
+          //   },
+          // },
         },
         blog: {
           showReadingTime: true,
@@ -214,10 +214,10 @@ const config = {
             docId: 'support/intro', // Assurez-vous que le chemin est correct
             label: 'Communauté',
           },
-          {
-            type: 'docsVersionDropdown',
-            position: 'right',
-          },
+          // {
+          //   type: 'docsVersionDropdown',
+          //   position: 'right',
+          // },
           {
             href: 'https://uptime.project-maker.fr/',
             label: 'ProjectMaker Uptime Checker',
