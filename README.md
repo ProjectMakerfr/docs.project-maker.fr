@@ -44,6 +44,7 @@ Nous ferons de notre mieux pour résoudre l'erreur dans les plus brefs délais.
 Le projet a été créé et est actuellement maintenu par :
 
 - **@leo-lb29** - Développeur principal
+- **@merfoxfire** - Graphiste
 
 Nous accueillons les contributions ! Si vous souhaitez contribuer au projet, veuillez consulter notre [Guide de Contribution](CONTRIBUTING).
 
