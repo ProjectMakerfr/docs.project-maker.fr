@@ -56,6 +56,7 @@ Pour toute question, suggestion ou demande particulière, vous pouvez nous conta
 - **Instagram :** [@projectmakerfr](https://instagram.com/projectmakerfr)
 - **Bento.me**: [projectmaker](https://bento.me/projectmaker)
 - **YouTube**: [@projectmakerfr](https://youtube/@projectmakerfr)
+
 ## Licence
 
 Ce projet est sous Copyright de Project-Maker.fr. Vous pouvez consulter les termes complets dans le fichier [LICENSE](LICENSE).
